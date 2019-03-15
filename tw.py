@@ -3,9 +3,9 @@
 import sys
 import argparse
 import base64
-from workflow import Workflow, ICON_WEB, ICON_WARNING, web, PasswordNotFound
+from workflow import Workflow, ICON_WEB, ICON_WARNING, ICON_INFO, web, PasswordNotFound
 
-__VERSION__ = '0.1.1'
+__VERSION__ = '0.1.2'
 
 def get_projects(url, apikey):
     apiurl = url + '/projects.json'
